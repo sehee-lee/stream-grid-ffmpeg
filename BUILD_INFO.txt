@@ -1,0 +1,4 @@
+FFmpeg 9.0.2 (수정 없음)
+License: GNU LGPL 2.1 or later
+Source: https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz
+Configure: --disable-everything --disable-programs --disable-doc --disable-debug --disable-autodetect --disable-avdevice --disable-avfilter --disable-swscale --disable-swresample --enable-static --disable-shared --enable-pic --enable-network --enable-protocol=tcp,udp,rtp,http --enable-demuxer=rtsp,rtp,sdp --enable-parser=h264,hevc
